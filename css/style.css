@@ -1,0 +1,227 @@
+body{
+	background-image: url("https://img.clipartfest.com/10b8724803a0253163fe0d09a4098ad2_-brick-wall-background-brick-wall-background-clipart_3084-1560.jpeg");
+	background-size: cover;
+}
+
+.container{
+	width: 100% ! important;
+	height: 525px;
+	/*outline: solid 2px white;*/
+	margin-top: 5%;
+	padding-top: 15%;
+}
+
+.headsContainer{
+	width: 70%;
+	height: 300px;
+	/*outline: solid 2px blue;*/
+	margin: 0 auto;
+}
+
+.headLeft{
+	float: left;
+	height: 300px;
+	width: 300px;
+	/*outline: solid 2px orange;*/
+
+}
+
+.headRight{
+	float: right;
+	height: 300px;
+	width: 300px;
+	/*outline: solid 2px green;*/
+	margin-top: -20px;
+	opacity: 0;
+}
+
+.eAndE{
+
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+	position: absolute;
+	left: 46%;
+	top: 50%;
+	color: white;
+	text-shadow: 2px 2px black;
+	height: 230px;
+	/*outline: solid 2px yellow;*/
+	z-index: 4;
+
+
+
+}
+
+#eulerTheWord{
+
+	
+}
+
+#ampersand{
+
+	margin-left: 30%;
+	opacity: 0;
+	
+	
+}
+
+#euclidTheWord{
+
+	opacity: 0;
+	
+
+}
+
+.speechBubble{
+
+	height: 250px;
+	width: 600px;
+	position: absolute;
+	/*outline: dotted 2px black;*/ 
+	top: 10%;
+	
+	font-family: 'Luckiest Guy', cursive;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.textContainer{
+
+	position: relative;
+	width: 500px;
+	height: 150px;
+	/*outline: solid 2px aqua;*/
+	align-self: center;
+	z-index: 1;
+
+	top:-30px;
+	
+}
+
+.textContainer2{
+
+	
+	vertical-align: middle;
+	height: auto;
+	width: 100%;
+	/*outline: solid 2px yellow;*/
+	top: 0; left: 0; bottom: 0; right: 0;
+
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+
+
+}
+
+
+
+.text{
+
+	font-size: 35px;
+	z-index: 1;
+	color: black;
+	/*outline: solid 2px red;*/
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	padding-top: 0%;
+	height: auto;
+	max-height: 100px;
+
+}
+
+
+
+.leftBubble{
+	 
+	position: absolute;
+
+
+}
+
+.rightBubble{
+
+	position: absolute;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+
+}
+
+.textBubble{
+
+	
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	z-index: 0;
+	/*outline: dotted 2px red;*/ 
+	top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+
+
+
+.left{
+
+	display: none;
+}
+
+.right{
+
+	display: none;
+}
+
+.left1{
+
+	 display: none;
+	 font-size: 50px;
+
+}
+
+.right1{
+
+	display: none;
+}
+
+.left2{
+
+	display: none;
+	top: -35px;
+	font-size: 32px;
+
+}
+
+.right2{
+
+	display: none;
+}
+
+.left3{
+
+	display: none;
+	top: -25px;
+	font-size: 80px;
+
+}
+
+.right3{
+
+	display: none;
+}
+
+#euclid{
+
+	margin-bottom: 20px;
+}
